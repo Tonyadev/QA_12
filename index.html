@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukach Antonina CV</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="wraper">
+  <header class="cite-header">
     <img src="/image/photo1.jpg" alt="photo" width="200">
     <h1>Sukach Antonina</h1>
-    <h3>Quality Assurance</h3>
+    <h3 id="text">Quality Assurance</h3>
     <hr>
     <div id="About_me">
         <h2>About me</h2>
@@ -18,25 +21,27 @@
             I hope my experience will be useful for your company and I will be able to expand my potential. 
             In  my plans for the foreseeable future - to learn a programming language and automated testing 
         </p>
-        <span>  <a href="./pages/gallery.html">my family</a></span> 
+        <span>  <a href="./pages/gallery.html">My family</a></span> 
     </div>
+    </header>
+    <main class="cite-main">
     <hr>
-    <div id="contact">
+    <div id="contact" class="contact">
         <h2>Contact</h2>
-        <span> Email:</span>
+        <span class="cite-contact"> Email:</span>
         <a href="./pages/contacts.html">silivina86@gmail.com </a> <br>
-        <span>Tel:</span>
+        <span class="cite-contact">Tel:</span>
         <a href="tel:+380958184042"> +38 (095) 818-40-42</a>
     </div>
     <hr>
     <div id="Skills">
         <h2>Skills</h2>  
         <ul>
-            <li>HTML</li>
-            <li> CSS</li>
-            <li>Understanding of software development process, types and levels of testing
-            </li>
-            <li>SASS</li>
+            <li class="cite-skills"><span class="skills">HTML</span></li>
+            <li class="cite-skills"><span class="skills">CSS</span></li>
+            <li class="cite-skills"><span class="skills">SASS</span></li>
+            <li class="cite-skills"><span class="skills">Understanding of software development process, types and levels of testing</span></li>
+            
         </ul>
     </div>
     <hr>
@@ -51,14 +56,27 @@
     <div id="education">
         <h2>Education</h2>
         <ol>
-            <li>Dnipropetrovsk Technical School of Railway Transport.</li>
-            <li>Dnipro State Agrarian and Economic University.</li>
-            <li>Hillel IT School.</li>
+            <li class="cite-education">Dnipropetrovsk Technical School of Railway Transport.</li>
+            <li class="cite-education">Dnipro State Agrarian and Economic University.</li>
+            <li class="cite-education">Hillel IT School.</li>
         </ol>
     </div>
-    <div id="certificate">
+    <div id="certificate" class="certificate">
         <h2>Certificate</h2>
-        <a href="https://certificate.ithillel.ua/view/68658792">https://certificate.ithillel.ua/view/68658792</a>
+        <a href="https://certificate.ithillel.ua/view/68658792">Certificate</a>
     </div>
+</main>
+<footer class="cite-footer">
+<div class="dop-contact"> 
+    <h2>Dop-contact</h2>
+    <ol>
+        <li>
+            Instagram............................................ <a href="https://www.instagram.com/toniasukach/?igshid=MzNlNGNkZWQ4Mg%3D%3D">[open]</a>
+        </li>
+        <li>Linkedin............................................. <a href="https://www.linkedin.com/feed/"> [open]</a></li>
+    </ol>
+</div>
+</footer>
+</div>
 </body>
 </html>
