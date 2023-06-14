@@ -1,0 +1,30 @@
+body 
+{  width: 1200px;
+    margin: 0 auto;
+    background-color: #F9F2E3; 
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    max-width: 1200px; 
+    padding-right: 10px; 
+    padding-left: 10px;
+  }
+h1 {
+        font-size: 24px;
+        color: brown;
+    }   
+.contact {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.cite-contact {
+    color: rgb(13, 119, 85);
+}
+.cite-skills {
+    color: rgb(13, 119, 85);
+
+}
+.cite-education {
+    color: rgb(124, 26, 104);
+}
